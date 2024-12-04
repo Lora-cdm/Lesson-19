@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    background: rgb(250, 128, 114);
+    flex-direction: row;
+}
+
+.container div {
+    background-color: rgb(245, 162, 153);
+    margin: 10px;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.container div:nth-child(1) {
+    order: 4; 
+  }
+  
+  .container div:nth-child(2) {
+    order: 1;  
+  }
+  
+  .container div:nth-child(3) {
+    order: 3; 
+  }
+  
+  .container div:nth-child(4) {
+    order: 2; 
+  }
+
+.container2 {
+    display: flex;
+    background-color: rgb(222, 184, 135);
+    flex-direction: inherit;
+}
+
+.container2 div {
+    background-color: rgb(197, 153, 96);
+    margin: 10px;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.container3 {
+    display: flex;
+    background-color: rgb(70, 130, 180);
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.container3 div {
+    background-color: rgb(132, 179, 217);
+    margin: 10px;
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+    width: 40%;
+}
+
+.container4 {
+    display: flex;
+    background-color: #2e8b57;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.container4 {
+    background-color: #9ee1bb ;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
